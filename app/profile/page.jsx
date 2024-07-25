@@ -2,7 +2,7 @@
 
 import Profile from "@components/Profile";
 import { useSession } from "next-auth/react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const MyProfile = ({ params }) => {
