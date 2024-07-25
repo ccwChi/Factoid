@@ -1,5 +1,5 @@
+'use client'
 import Link from "next/link";
-import React from "react";
 
 const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
   return (
